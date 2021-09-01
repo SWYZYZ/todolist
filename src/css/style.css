@@ -1,0 +1,77 @@
+#app .titleBar{
+    height: 38px;
+    line-height: 38px;
+    background-color: #fff1f0;
+    display: flex;
+    border-bottom: 1px solid #f5222d;
+    position: fixed;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+#app .titleBar .title{
+    flex: 1;
+    display: flex;
+    -webkit-app-region:drag;
+}
+#app .titleBar .title .logo{
+    padding-left: 8px;
+    padding-right: 6px;
+}
+#app .titleBar .title .logo img{
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+}
+#app .titleBar .title .txt{
+    text-align: left;
+    flex: 1;
+}
+#app .titleBar #nav{
+    flex: 1;
+    display: flex;
+    height: 37px;
+    width: auto;
+    -webkit-app-region:drag;
+}
+#app .titleBar #nav .nav_list{
+    width: 38px;
+    -webkit-app-region:no-drag;
+}
+#app .titleBar .tools div{
+    color: #888;
+    height: 100%;
+    width: 38px;
+    display: inline-block;
+    cursor: pointer;
+}
+#app .titleBar .tools .pinnone{
+    background-color: #ffb1aa;
+}
+#app .titleBar .tools .pinnone:hover{
+    background-color: #ffb1aa;
+}
+#app .titleBar .tools div i{
+    font-size: 12px;
+}
+#app .titleBar .tools .pin i{
+    font-size: 12px;
+}
+#app .titleBar .tools div:hover{
+    background-color: #ffccc7;
+}
+#app .titleBar .tools .close:hover{
+    color: #fff;
+    background-color: #ff4d4f;
+}
+#app .body{
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 38px;
+    z-index: 1;
+}

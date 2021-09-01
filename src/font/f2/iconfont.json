@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11488096",
+      "name": "pin",
+      "font_class": "pin",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "11488298",
+      "name": "pin-fill",
+      "font_class": "pin-fill",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "12011622",
+      "name": "sami-select",
+      "font_class": "sami-select",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    }
+  ]
+}
