@@ -20,7 +20,7 @@
           type="text"
           :id="option.key"
           @input="input"
-          :value="option.key + '.' + option.label"
+          :value="option.label"
         />
       </template>
       <template #left-footer>
@@ -70,16 +70,8 @@ export default {
       console.log(value, direction, movedKeys);
     },
     input(value) {
-      if (!value.data) {
-        self.data[Number(value.target.id) - 1].label = self.data[
-          Number(value.target.id) - 1
-        ].label.substring(
-          0,
-          self.data[Number(value.target.id) - 1].label.length - 1
-        );
-      } else {
-        self.data[Number(value.target.id) - 1].label += value.data;
-      }
+      console.log(value.target.value.length)
+      self.data[Number(value.target.id) - 1].label = value.target.value;
       self.savedata();
     },
     insertN() {
