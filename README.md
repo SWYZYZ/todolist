@@ -1,27 +1,19 @@
 # todolist
 
-## Project setup
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run electron:serve
 ```
 
-### Lints and fixes files
+### 打包
 ```
-npm run lint
+npm run electron:build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# todolist
 
 vue3+electron 开发  todolist小程序
